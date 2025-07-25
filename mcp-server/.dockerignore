@@ -1,0 +1,57 @@
+# Ignore development and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore documentation and examples
+*.md
+docs/
+examples/
+
+# Ignore test files
+tests/
+test_*.py
+*_test.py
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore docker files
+Dockerfile*
+docker-compose*.yml
+.dockerignore 
